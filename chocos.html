@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ChocoDelight</title>
+  <style>
+    body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffaf5;
+  color: #3e2c23;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4b2e2e;
+  padding: 20px 40px;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  background: linear-gradient(#fff5e5, #ffe9cc);
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #7b3f00;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.hero-img img {
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.products {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.product-card {
+  background: #fff;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.footer {
+  background-color: #4b2e2e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">ChocoDelight</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Pure Bliss in Every Bite</h1>
+      <p>Discover the finest handcrafted chocolates for every occasion.</p>
+      <a href="#" class="btn">Shop Now</a>
+    </div>
+    <div class="hero-img">
+      <img src="https://media.istockphoto.com/id/522735736/photo/chocolate-background.jpg?s=612x612&w=0&k=20&c=fmBbjHi5zXpcbzAQWGy3xtPgcIJkc7eHXjZiYsi396A=" alt="Chocolates">
+    </div>
+  </section>
+
+  <section class="products">
+    <h2>Our Best Sellers</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://amintiri.in/cdn/shop/products/dark-chocolate-truffle_8442ada7-e682-493a-8226-4e1cfefc2925.jpg?v=1613118672" alt="Dark Chocolate">
+        <h3>Dark Chocolate</h3>
+        <p>Rich, bold and 70% cocoa delight.</p>
+      </div>
+      <div class="product-card">
+        <img src="https://www.southernliving.com/thmb/WTC8-jWzQLn2634onG3ycIA9wE0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7642453-Milk-Chocolate-Bar-Cake-Beauty-11824-8777b27fa2b84e9fa5db32404b83ed5b.jpg" alt="Milk Chocolate">
+        <h3>Milk Chocolate</h3>
+        <p>Creamy and smooth with a hint of caramel.</p>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Assorted Box">
+        <h3>Assorted Box</h3>
+        <p>A mix of nutty, fruity, and classic flavors.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 ChocoDelight. All rights reserved.</p>
+  </footer>
+</body>
+</html>
